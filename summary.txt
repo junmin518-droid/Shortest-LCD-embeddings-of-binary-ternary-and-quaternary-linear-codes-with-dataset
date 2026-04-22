@@ -1,0 +1,48 @@
+Summary for many inequivalent shortest LCD harvesting
+cycle: 1
+
+============================================================
+A1 | GF(2) | target=[19,11,4] | Binary Hamming H_4 -> [19,11,4]
+status: BUDGET_EXHAUSTED
+hits: 451
+best_distance_seen: 4
+============================================================
+A2 | GF(2) | target=[36,26,4] | Binary Hamming H_5 -> [36,26,4]
+status: BUDGET_EXHAUSTED
+hits: 37
+best_distance_seen: 4
+============================================================
+A3 | GF(3) | target=[16,10,4] | Ternary Hamming H_3 -> [16,10,4]
+status: BUDGET_EXHAUSTED
+hits: 412
+best_distance_seen: 4
+============================================================
+A4 | GF(3) | target=[44,36,4] | Ternary Hamming H_4 -> [44,36,4]
+status: BUDGET_EXHAUSTED
+hits: 51
+best_distance_seen: 4
+============================================================
+B1 | GF(3) | target=[23,4,13] | Harvest ternary BKLC seeds compatible with target [23,4,13]
+status: IN_PROGRESS
+hits: 201
+best_distance_seen: 13
+============================================================
+B2 | GF(3) | target=[23,5,12] | Harvest ternary BKLC seeds compatible with target [23,5,12]
+status: PENDING
+hits: 0
+best_distance_seen: -1
+============================================================
+B3 | GF(3) | target=[24,6,12] | Harvest ternary BKLC seeds compatible with target [24,6,12]
+status: PENDING
+hits: 0
+best_distance_seen: -1
+============================================================
+B4 | GF(3) | target=[25,5,14] | Harvest ternary BKLC seeds compatible with target [25,5,14]
+status: PENDING
+hits: 0
+best_distance_seen: -1
+============================================================
+B5 | GF(4) | target=[21,10,8] | Primary quaternary BKLC seed [20,10,8] for target [21,10,8]
+status: PENDING
+hits: 0
+best_distance_seen: -1
