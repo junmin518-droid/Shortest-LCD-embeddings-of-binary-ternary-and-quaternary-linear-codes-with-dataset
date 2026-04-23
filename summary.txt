@@ -1,0 +1,34 @@
+Summary for many inequivalent shortest LCD embeddings from Hamming codes
+============================================================
+A1 | GF(2) | target=[19,11,4] | Binary Hamming H_4 -> [19,11,4]
+status: BUDGET_EXHAUSTED
+hits: 3801
+best_distance_seen: 4
+============================================================
+A2 | GF(2) | target=[36,26,4] | Binary Hamming H_5 -> [36,26,4]
+status: BUDGET_EXHAUSTED
+hits: 846
+best_distance_seen: 4
+============================================================
+A3 | GF(3) | target=[16,10,4] | Ternary Hamming H_3 -> [16,10,4]
+status: BUDGET_EXHAUSTED
+hits: 3702
+best_distance_seen: 4
+============================================================
+A4 | GF(3) | target=[44,36,4] | Ternary Hamming H_4 -> [44,36,4]
+status: PENDING
+hits: 885
+best_distance_seen: 4
+
+
+Summary for many inequivalent shortest LCD embeddings from BKLC codes
+============================================================
+B1 | GF(3) | target=[23,4,13] | Harvest ternary BKLC seeds compatible with target [23,4,13]
+status: BUDGET_EXHAUSTED
+hits: 226
+best_distance_seen: 13
+============================================================
+B2 | GF(3) | target=[23,5,12] | Harvest ternary BKLC seeds compatible with target [23,5,12]
+status: BUDGET_EXHAUSTED
+hits: 38
+best_distance_seen: 12
