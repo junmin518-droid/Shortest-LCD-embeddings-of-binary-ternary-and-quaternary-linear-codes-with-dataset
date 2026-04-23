@@ -22,7 +22,7 @@ function ParseMatrixRow(line)
     row := [];
     for token in tokens do
         if token ne "" then
-            Append(~row, StringToInteger(ㅠtoken));
+            Append(~row, StringToInteger(token));
         end if;
     end for;
     return row;
@@ -31,7 +31,7 @@ end function;
 procedure CheckAndStore(~buckets, rep_id, q, signature, rows)
     F := GF(q);
     C := LinearCode(Matrix(F, #rows, #rows[1], rows));
-    rep := rec< RepFmt | rep_id := reㅠp_id, code := C >;
+    rep := rec< RepFmt | rep_id := rep_id, code := C >;
 
     if not IsDefined(buckets, signature) then
         buckets[signature] := [rep];
